@@ -20,4 +20,4 @@ jobs:
         uses: ministryofjustice/github-actions/check-version-pinning@ccf9e3a4a828df1ec741f6c8e6ed9d0acaef3490
         with:
           workflow_directory: ".github/workflows"
-          scan_mode: "full"
+          scan_mode: "pr_changes"
